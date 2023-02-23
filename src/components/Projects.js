@@ -6,6 +6,8 @@ import projImg3 from "../assets/img/project-img3.jpg";
 import projImg4 from "../assets/img/project-img4.jpg";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.jpg";
+import projImg7 from "../assets/img/project-img7.png";
+import projImg8 from "../assets/img/project-img8.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -40,10 +42,23 @@ export const Projects = () => {
     },
     {
       title: "App help desk",
-      description: "App for support a client with problems of technology",
+      description: "App created in PHP and Chrome SQL for support a client with problems of technology",
       imgUrl: projImg6,
     },
   ];
+
+  const projects2 = [
+    {
+      title: "Support Desk",
+      description: "App creted using react but in progress",
+      imgUrl: projImg7,
+    },
+    {
+      title: "Bank",
+      description: "Bank app created using PHP simulating a bank savings",
+      imgUrl: projImg8,
+    }
+  ]
 
   return (
     <section className="project" id="project">
@@ -83,7 +98,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Working for more</p>
+                    <Row>
+                        {
+                          projects2.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Working for more</p>
