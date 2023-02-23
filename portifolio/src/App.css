@@ -2,25 +2,25 @@
 @import url(//db.onlinewebfonts.com/c/1d8aa3902ed39929de0912f0ff2bb89f?family=Centra+No2);
 @import url(//db.onlinewebfonts.com/c/229a57bbeef591e04a1fdfe347c90864?family=Centra+No2);
 
-/* Default CSS */
-*{
+/************ Default Css ************/
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
 }
 
-body{
+body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', 'sans-serif' !important;
+  font-family: 'Centra', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,13 +68,11 @@ p.success {
 p.danger {
 	color: red;
 }
-
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
   position: fixed;
-  height: auto;
-  width: 15%;
+  width: 100%;
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
