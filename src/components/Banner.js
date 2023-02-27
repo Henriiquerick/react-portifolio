@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Software Enginer"];
+  const toRotate = [ "Web Developer", "Software Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -62,7 +62,7 @@ export const Banner = () => {
                   I'm looking to be one of the best developers in the future and I'm very thirsty to learn.
                   I am passionate about reading and studying about health and the human body. I always try to improve. I am organized, lively, creative, and focused on goals.
                   </p>
-                  <h1>{`Hi! I'm Rickson`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Enginer"]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Rickson`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Engineer"]'><span className="wrap">{text}</span></span></h1>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
