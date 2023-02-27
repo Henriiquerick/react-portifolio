@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portifolio/static/css/main.13e9e34b.css",
-    "main.js": "/react-portifolio/static/js/main.d495d43f.js",
-    "static/js/787.4519b81e.chunk.js": "/react-portifolio/static/js/787.4519b81e.chunk.js",
+    "main.js": "/react-portifolio/static/js/main.2a3175ea.js",
+    "static/js/787.507c6f0e.chunk.js": "/react-portifolio/static/js/787.507c6f0e.chunk.js",
     "static/media/color-sharp.png": "/react-portifolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/react-portifolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/project-img3.jpg": "/react-portifolio/static/media/project-img3.af99cfd8cd5e68ea8fa3.jpg",
@@ -34,11 +34,11 @@
     "static/media/arrow2.svg": "/react-portifolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/react-portifolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.13e9e34b.css.map": "/react-portifolio/static/css/main.13e9e34b.css.map",
-    "main.d495d43f.js.map": "/react-portifolio/static/js/main.d495d43f.js.map",
-    "787.4519b81e.chunk.js.map": "/react-portifolio/static/js/787.4519b81e.chunk.js.map"
+    "main.2a3175ea.js.map": "/react-portifolio/static/js/main.2a3175ea.js.map",
+    "787.507c6f0e.chunk.js.map": "/react-portifolio/static/js/787.507c6f0e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13e9e34b.css",
-    "static/js/main.d495d43f.js"
+    "static/js/main.2a3175ea.js"
   ]
 }
