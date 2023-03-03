@@ -538,6 +538,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
+.notWork{
+  color: rgba(216, 12, 12, 0.712);
+}
+
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;

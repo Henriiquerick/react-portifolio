@@ -36,8 +36,8 @@ export const Newsletter = ({ status, message, onValidated }) => {
                 <div className="new-email-bx">
                   <input value={email} type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email Address" />
                   <button type="submit">Submit</button>
-                  <span>it not works</span>
                 </div>
+                <span className="notWork">Not working at the moment</span>
               </form>
             </Col>
           </Row>
